@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Pablo-sun.GitHub.io by pablo-sun</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Pablo-sun.GitHub.io</h1>
+          <h2>LinkIt SDK 1.1.08 and Arduino IDE 1.6.4</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/pablo-sun" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <hr>
+
+<hr>
+
+<h2>
+<a id="install-linkit-sdk-1107-on-arduino-ide-164" class="anchor" href="#install-linkit-sdk-1107-on-arduino-ide-164" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install LinkIt SDK 1.1.07 on Arduino IDE 1.6.4</h2>
+
+<p>LinkIt SDK 1.1.07(for Arduino) now provides an experimental support for Boards Manager function in Arduino IDE 1.6.4.</p>
+
+<h3>
+<a id="install-driver" class="anchor" href="#install-driver" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install driver</h3>
+
+<p>Download and install USB COM port drivers for LinkIt ONE. If you already installed LinkIt ONE USB COM port drivers before, you can skip this step. </p>
+
+<ul>
+<li><a href="http://download.labs.mediatek.com/windows-com-port-driver.zip">Download driver for Windows</a></li>
+<li><a href="http://download.labs.mediatek.com/os-x-com-port-driver.zip">Download driver for OS X</a></li>
+</ul>
+
+<h3>
+<a id="set-3rd-party-boards-manager-url" class="anchor" href="#set-3rd-party-boards-manager-url" aria-hidden="true"><span class="octicon octicon-link"></span></a>Set 3rd party Boards Manager URL</h3>
+
+<p>Point your Arduino IDE 1.6.4 to our Boards Manager repository.
+To do this, choose <code>File &gt; Preferences</code> form IDE menu. Copy and paste following URL to the "Additional Boards Manager URLs" preferences. </p>
+
+<p>Repository URL: <code>http://download.labs.mediatek.com/package_mtk_linkitone_index.json</code></p>
+
+<p><img src="images/preference_screenshot.png" alt="preference screenshot"></p>
+
+<p>If you have multiple Boards Manager repositories, you can seperate them with comma.</p>
+
+<h3>
+<a id="install-linkit-one-sdk-with-boards-manager" class="anchor" href="#install-linkit-one-sdk-with-boards-manager" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install LinkIt ONE SDK with Boards Manager</h3>
+
+<p>Make sure your computer is connected to the iternet. Then open up Boards Manager by choosing <code>Tools &gt; Board &gt; Boards Manager</code>. It may take several seconds for the manager to download the repository. </p>
+
+<p>There should now be an <strong>LinkIt ONE</strong> item appearing in the boards list. Click on it and a "Install" button appears. If there is too many items in the boards manager, set the <code>Type</code> filter to "Contributed". After installation, close and relaunch Arduino IDE.
+<img src="images/boardsmanager_install.gif" alt="Boards Manager Install"></p>
+
+<h3>
+<a id="relaunch-arduino-ide-and-update-firmware" class="anchor" href="#relaunch-arduino-ide-and-update-firmware" aria-hidden="true"><span class="octicon octicon-link"></span></a>Relaunch Arduino IDE and update firmware</h3>
+
+<p>Please <strong>close and re-launch Arduino IDE</strong> before doing this step. After installing LinkIt ONE SDK, we can now update the firmware on LinkIt ONE to match the SDK version. The steps described here is applicable only to LinkIt SDK 1.1.07 + Arduino IDE 1.6.4.</p>
+
+<ul>
+<li>Choose <code>Tools &gt; Board &gt; LinkIt ONE</code>
+</li>
+<li>Then choose <code>Tools &gt; Programmer &gt; LinkIt Firmware Updater</code>
+</li>
+<li>Choose <code>Tools &gt; Burn Bootloader</code> to launch the fimrware updater</li>
+</ul>
+
+<p><img src="images/update_firmware.gif" alt="Launch Firmware Updater"></p>
+
+<p>After firmware updater appears,</p>
+
+<ul>
+<li>Disconnect your LinkIt ONE board from the computer</li>
+<li>Set the <code>MS &lt;-&gt; UART</code> switch to <code>MS</code> mode</li>
+<li>Click the download button in the firmware updater</li>
+<li>Connect your LinkIt ONE board to the computer</li>
+</ul>
+
+<p>It may take up to 2 minutes for the firmware to be updated. Once the update process is completed, disconnect the board from the computer, and remember to switch the <code>MS &lt;-&gt; UART</code> switch back to <code>UART</code> mode if you intend to upload the sketch.</p>
+
+<p>And that's it! Feel free to post questions and feedback bugs to <a href="http://labs.mediatek.com/forums/forums/list.page">the forum</a>.</p>
+        </section>
+
+        <footer>
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
