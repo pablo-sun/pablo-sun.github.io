@@ -1,4 +1,5 @@
 ---
+layout: post
 ---
 
 ##Install LinkIt SDK 1.1.07 on Arduino IDE 1.6.4
