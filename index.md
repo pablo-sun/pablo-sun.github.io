@@ -2,9 +2,9 @@
 layout: page
 ---
 
-##Install LinkIt SDK 1.1.07 on Arduino IDE 1.6.4
+##Install LinkIt SDK 1.1.09 on Arduino IDE 1.6.4
 
-LinkIt SDK 1.1.07(for Arduino) now provides an experimental support for Boards Manager function in Arduino IDE 1.6.4.
+LinkIt SDK 1.1.09(for Arduino) now provides an experimental support for Boards Manager function in Arduino IDE 1.6.4.
 
 ###Install driver
 Download and install USB COM port drivers for LinkIt ONE. If you already installed LinkIt ONE USB COM port drivers before, you can skip this step. 
@@ -28,7 +28,7 @@ There should now be an **LinkIt ONE** item appearing in the boards list. Click o
 ![Boards Manager Install](images/boardsmanager_install.gif)
 
 ###Relaunch Arduino IDE and update firmware
-Please **close and re-launch Arduino IDE** before doing this step. After installing LinkIt ONE SDK, we can now update the firmware on LinkIt ONE to match the SDK version. The steps described here is applicable only to LinkIt SDK 1.1.07 + Arduino IDE 1.6.4.
+Please **close and re-launch Arduino IDE** before doing this step. After installing LinkIt ONE SDK, we can now update the firmware on LinkIt ONE to match the SDK version. The steps described here is applicable only to LinkIt SDK 1.1.09 + Arduino IDE 1.6.4.
 
  - Choose `Tools > Board > LinkIt ONE`
  - Then choose `Tools > Programmer > LinkIt Firmware Updater`
