@@ -46,6 +46,6 @@ It may take up to 2 minutes for the firmware to be updated. Once the update proc
 
 And that's it! Feel free to post questions and feedback bugs to [the forum][link3].
  
-[link1]: http://download.labs.mediatek.com/os-x-com-port-driver.zip
-[link2]: http://download.labs.mediatek.com/windows-com-port-driver.zip
+[link1]: http://download.labs.mediatek.com/mediatek_linkit_os-x-com-port-driver.zip
+[link2]: http://download.labs.mediatek.com/mediatek_linkit_windows-com-port-driver.zip
 [link3]: http://labs.mediatek.com/forums/forums/list.page
